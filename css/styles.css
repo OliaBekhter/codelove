@@ -224,7 +224,7 @@
          padding: 90px 0px;
       }
  }
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 450px) {
     .text{
        padding: 11%;
        font-size: 65%;
