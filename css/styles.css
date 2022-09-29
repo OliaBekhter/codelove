@@ -74,6 +74,10 @@
 #ruby{
   background-color: #eaa28e;
 }
+#ruby_info{
+   background-color: #eaa28e;
+   box-shadow: 500px 0px #eaa28e;
+ }
 #python-back {
    background-color: #653c78;
 }
@@ -153,20 +157,20 @@
 .sidebar { 
    flex-grow:1;
    display: block;
-   width: 30%;
+   width: 35%;
    height: 100%;
    flex-direction: column;
    
 }
 .sidebar_pic{
     object-fit:cover;
-    width: 80%;
+    width: 90%;
    height: 100%; 
    margin:auto;
 }
 .block_character_info { 
    flex-grow:1;
-   width: 55%;
+   width: 50%;
    height: 100%;
    padding: 0% 3%;
 }
@@ -174,10 +178,13 @@
    border-radius: 15px;
    flex-grow:1;
    height: auto;
-   margin: 5%;
+   margin: 5% 0 0 5%;
+
 }
 .character_name { 
    border-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
    flex-grow:1;
    background: rgba(216, 191, 216, 0.5);
    width: 60%;
@@ -230,6 +237,7 @@
       height: 100%;
       flex-direction: column;
    }
+   
    .block_character_info { 
       flex-grow:1;
       width: 50%;
