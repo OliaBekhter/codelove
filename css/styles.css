@@ -1,9 +1,23 @@
+@font-face {
+   font-family: "e-Ukraine-Regular";
+   src: url("../fonts/e-Ukraine-Regular.ttf");
+}
+
+@font-face {
+   font-family: "e-UkraineHead-Medium";
+   src: url("../fonts/e-UkraineHead-Medium.ttf");
+}
+
+html,
+body {
+   font-family: "e-Ukraine-Regular";
+}
+
 *, *:after, *:before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     transition: .5s ease-in-out;
-    /* добавим плавность переходов для всех элементов страницы*/
  }
  a {
     text-decoration: none;
@@ -18,6 +32,7 @@
     margin-right: 30px;
  }
  #menu a {
+    font-family: "e-UkraineHead-Medium";
     color: #111;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -180,6 +195,7 @@
    font-size: 120%;
 }
 .text_name{
+   font-family: "e-UkraineHead-Medium";
    font-size: 200%;
    line-height: 1.25;
 }
