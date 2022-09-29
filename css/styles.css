@@ -68,40 +68,21 @@
 
 
 
-#ruby-back {
-   background-color: #b0544c;
-}
-#ruby{
-  background-color: #eaa28e;
-}
+#bg_ruby { background-color: #b0544c; }
+#color_ruby { background-color: #eaa28e; }
+#bg_python { background-color: #653c78; }
+#python{ background-color: #c383cf; }
+#bg_java { background-color: #814822; }
+#java { background-color: #d69c74; }
+#js-back { background-color: #bc983d }
+#js { background-color: #dab084;}
+#c-back { background-color: #413dbc; }
+#c { background-color: #848ada; }
+
 #ruby_info{
    background-color: #eaa28e;
    box-shadow: 500px 0px #eaa28e;
  }
-#python-back {
-   background-color: #653c78;
-}
-#python{
-  background-color: #c383cf;
-}
-#java-back {
-   background-color: #814822;
-}
-#java {
-   background-color: #d69c74;
-}
-#js-back {
-   background-color: #bc983d;
-}
-#js {
-   background-color: #dab084;
-}
-#c-back {
-   background-color: #413dbc;
-}
-#c {
-   background-color: #848ada;
-}
 
 #logo_back{
    background-color: #000000;
@@ -237,7 +218,6 @@
       height: 100%;
       flex-direction: column;
    }
-   
    .block_character_info { 
       flex-grow:1;
       width: 50%;
