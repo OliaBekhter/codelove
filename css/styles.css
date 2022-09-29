@@ -53,7 +53,7 @@
     text-align: right;
  }
  .social-bar-wrap {
-    text-align: center;
+    text-align: right;
  }
  .social-bar-wrap a {
     padding: 0 7px;
@@ -103,21 +103,20 @@
 
 #logo_back{
    background-color: #000000;
+   
 }
-.logo_pic{
-   height: 80%;
-}
+
 .header {
    width: 100%;
    padding: 15px;
    height: 70px;
    position:fixed;
    top:0;
-   background-color: #ffffff;
+   background-color: #f7f6f6;
 }
 .container {
    width: 100%;
-   padding: 90px 15px;
+   padding: 90px 0;
    height: 680px;
 }
 .section { 
@@ -125,29 +124,47 @@
    width: 100%; 
    height: 500px; 
 }
+#section_UwU{
+    display: flex;
+    width: 100%; 
+    height: 580px; 
+    flex-direction: column;
+}
 #UwU{
-   height: 550px; 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   display: block;
+   height: 50%; 
+   margin: auto;
 }
 #UwU_text{
+    margin: auto;
    color: #ffffff;
+   width: 80%; 
+    height: 200px;
+    text-align: center;
+    
 }
+#gradient{
+    height: 90px;
+    background: -moz-radial-gradient(center, ellipse cover, #000000, #b0544c);
+    background: -webkit-linear-gradient(top, #000000, #b0544c);
+    background: -o-linear-gradient(top, #000000, #b0544c);
+    background: -ms-linear-gradient(top, #000000, #b0544c);
+}
+.logo_pic{
+    height: 100%;
+ }
 .sidebar { 
    flex-grow:1;
    display: block;
    width: 30%;
    height: 100%;
    flex-direction: column;
+   
 }
 .sidebar_pic{
-   object-fit:cover;
-   width: 100%; 
+    object-fit:cover;
+    width: 80%;
    height: 100%; 
-   float: right;
-   padding-right: 15%;
+   margin:auto;
 }
 .block_character_info { 
    flex-grow:1;
@@ -156,18 +173,19 @@
    padding: 0% 3%;
 }
 .character_info { 
-   border-radius: 30px;
+   border-radius: 15px;
    flex-grow:1;
-   height: 60%;
+   height: auto;
    margin: 5%;
 }
 .character_name { 
-   border-radius: 30px;
+   border-radius: 15px;
    flex-grow:1;
    background: rgba(216, 191, 216, 0.5);
    width: 60%;
-   height: 20%;
+   height: auto;
    margin: 5%;
+   padding: 2%;
    line-height: 5em;
    text-align: center;
    }
@@ -236,7 +254,6 @@
        padding: 5% 0;
     }
     .sidebar {
-        
         overflow:hidden;
         width: 30%;
         height: 100%;
