@@ -112,6 +112,7 @@ body {
    position:fixed;
    top:0;
    background-color: #f7f6f6;
+   z-index: 9999;
 }
 .container {
    width: 100%;
