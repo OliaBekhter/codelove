@@ -34,7 +34,7 @@ body {
  }
  #menu a {
     font-family: "e-UkraineHead-Medium";
-    color: #111;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -111,7 +111,7 @@ body {
    height: 70px;
    position:fixed;
    top:0;
-   background-color: #f7f6f6;
+   backdrop-filter: blur(2px);
    z-index: 9999;
 }
 .container {
