@@ -1,10 +1,20 @@
 @font-face {
    font-family: "e-Ukraine-Regular";
-   src: url("../fonts/e-Ukraine-Regular.ttf");
+   font-display: swap;
+   src: local('e-Ukraine-Regular'),
+      url('../fonts/e-Ukraine-Regular.woff2') format('woff2'),
+      url('../fonts/e-Ukraine-Regular.woff') format('woff'),
+      url('../fonts/e-Ukraine-Regular.ttf') format('truetype'),
+      url('../fonts/e-Ukraine-Regular.eot') format('embedded-opentype');
 }
 @font-face {
    font-family: "e-UkraineHead-Medium";
-   src: url("../fonts/e-UkraineHead-Medium.ttf");
+   font-display: swap;
+   src: local('e-UkraineHead-Medium'),
+      url('../fonts/e-UkraineHead-Medium.woff2') format('woff2'),
+      url('../fonts/e-UkraineHead-Medium.woff') format('woff'),
+      url('../fonts/e-UkraineHead-Medium.ttf') format('truetype'),
+      url('../fonts/e-UkraineHead-Medium.eot') format('embedded-opentype');
 }
 html, body {
    scroll-behavior: smooth;
