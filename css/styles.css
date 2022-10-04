@@ -19,8 +19,8 @@ html, body {
    margin: 0;
  }
  a {
-    text-decoration: none;
-    outline: none;
+   text-decoration: none;
+   outline: none;
  }
  
 /*background*/
@@ -183,7 +183,7 @@ html, body {
  .footer-col:last-child {
    text-align: right;
  }
- 
+
 @media screen and (max-width: 755px) {
    .header {
       justify-content: center;
