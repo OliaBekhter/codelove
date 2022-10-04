@@ -84,15 +84,15 @@ body {
 
 
 #bg_ruby { background-color: #b0544c; }
-#color_ruby { background-color: #eaa28e; }
+.color_ruby div { background-color: #eaa28e; }
 #bg_python { background-color: #653c78; }
-#python{ background-color: #c383cf; }
+.color_python{ background-color: #c383cf; }
 #bg_java { background-color: #814822; }
-#java { background-color: #d69c74; }
-#js-back { background-color: #bc983d }
-#js { background-color: #dab084;}
-#c-back { background-color: #413dbc; }
-#c { background-color: #848ada; }
+.color_java { background-color: #d69c74; }
+#bg_js { background-color: #bc983d }
+.color_js { background-color: #dab084;}
+#bg_c { background-color: #413dbc; }
+.color_c { background-color: #848ada; }
 
 #ruby_info{
    background-color: #eaa28e;
