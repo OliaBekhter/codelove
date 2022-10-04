@@ -160,7 +160,7 @@ html, body {
 }
 .character_img{
    object-fit:cover;
-   width: 100%;
+   
    height: 100%; 
    margin:auto;
 }
@@ -205,12 +205,15 @@ html, body {
       height: 700px;
    }
  }
- @media screen and (max-width: 1090px) {
+ @media screen and (max-width: 1150px) {
 .shadow_ruby { box-shadow: none; }
 .shadow_python { box-shadow: none; }
 .shadow_java { box-shadow: none; }
 .shadow_js { box-shadow: none; }
 .shadow_c { box-shadow: none; }
+.character_img{
+   width: 100%;
+}
  }
 @media screen and (max-width: 760px) {
    .header {
