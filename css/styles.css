@@ -2,94 +2,28 @@
    font-family: "e-Ukraine-Regular";
    src: url("../fonts/e-Ukraine-Regular.ttf");
 }
-
 @font-face {
    font-family: "e-UkraineHead-Medium";
    src: url("../fonts/e-UkraineHead-Medium.ttf");
 }
-
-html,
-body {
+html, body {
    scroll-behavior: smooth;
    font-family: "e-Ukraine-Regular";
 }
-
 ::-webkit-scrollbar {
    display: none;
  }
-
-*, *:after, *:before {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    transition: .5s ease-in-out;
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
  }
  a {
     text-decoration: none;
     outline: none;
  }
  
- #menu {
-   backdrop-filter: blur(2px);
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
- }
- #menu li {
-    display: inline-block;
-    margin-right: 30px;
- }
- #menu li:first-child {
-   margin-left: 30px;
- }
- #menu a {
-    font-family: "e-UkraineHead-Medium";
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-    display: block;
-    line-height: 40px;
- }
- #menu a:hover {
-    color: #EF5A42;
- }
- #footer {
-    margin: 0 auto;
-    width: 100%;
-    padding: 15px 25px 15px 25px;
-    height: 40px;
- }
- footer {
-    padding: 30px 0;
-    background: #3C3D41;
-    color: white;
- }
- .footer-col {
-    width: 50%;
-    float: left;
- }
- .footer-col a {
-    color: white;
- }
- .footer-col:last-child {
-    text-align: right;
- }
- .social-bar-wrap {
-    text-align: right;
- }
- .social-bar-wrap a {
-    padding: 0 7px;
-    font-size: 18px;
- }
- 
-
-
-
-
-
-
-
-
+/*background*/
 #bg_ruby { background-color: #b0544c; }
 #color_ruby { background-color: #eaa28e; }
 #bg_python { background-color: #653c78; }
@@ -100,17 +34,9 @@ body {
 #color_js { background-color: #dab084;}
 #bg_c { background-color: #413dbc; }
 #color_c { background-color: #848ada; }
+#bg_UwU{ background-color: #000000;}
 
-#ruby_info{
-   background-color: #eaa28e;
-   box-shadow: 500px 0px #eaa28e;
- }
-
-#logo_back{
-   background-color: #000000;
-   
-}
-
+/*header*/
 .header {
    width: 100%;
    padding: 15px;
@@ -121,70 +47,75 @@ body {
    display: flex;
    justify-content: end;
 }
+#menu {
+   backdrop-filter: blur(2px);
+   border-top: 1px solid #fff;
+   border-bottom: 1px solid #fff;
+ }
+ #menu li {
+   display: inline-block;
+   margin-right: 30px;
+ }
+ #menu li:first-child {
+   margin-left: 30px;
+ }
+ #menu a {
+   font-family: "e-UkraineHead-Medium";
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-weight: 600;
+   display: block;
+   line-height: 40px;
+   transition: .5s ease-in-out;
+ }
+ #menu a:hover {
+   color: #EF5A42;
+ }
+
+/*content*/
 .container {
    width: 100%;
-   padding: 90px 0;
-   height: 680px;
+   height: 650px;
 }
 .section { 
    display: flex;
    width: 100%; 
-   height: 500px; 
+   height: 100%;
+   padding: 5%;
 }
+/*content about team*/
 #section_UwU{
-    display: flex;
-    width: 100%; 
-    height: 580px; 
-    flex-direction: column;
+   flex-direction: column;
 }
-#UwU{
+#section_UwU p{
+   margin: auto;
+   color: #ffffff;
+   width: 80%; 
+   height: 200px;
+   text-align: center;
+}
+#UwU_img{
    height: 50%; 
    margin: auto;
 }
-#UwU_text{
-    margin: auto;
-   color: #ffffff;
-   width: 80%; 
-    height: 200px;
-    text-align: center;
-    
+#UwU_gradient{
+   height: 90px;
+   background: -moz-radial-gradient(center, ellipse cover, #000000, #b0544c);
+   background: -webkit-linear-gradient(top, #000000, #b0544c);
+   background: -o-linear-gradient(top, #000000, #b0544c);
+   background: -ms-linear-gradient(top, #000000, #b0544c);
 }
-#gradient{
-    height: 90px;
-    background: -moz-radial-gradient(center, ellipse cover, #000000, #b0544c);
-    background: -webkit-linear-gradient(top, #000000, #b0544c);
-    background: -o-linear-gradient(top, #000000, #b0544c);
-    background: -ms-linear-gradient(top, #000000, #b0544c);
-}
-.logo_pic{
-    height: 100%;
- }
-.sidebar { 
-   flex-grow:1;
-   display: block;
-   width: 35%;
+.logo_img{
    height: 100%;
-   flex-direction: column;
-   
-}
-.sidebar_pic{
-    object-fit:cover;
-    width: 75%;
-   height: 100%; 
-   margin:auto;
-}
-.block_character_info { 
+ }
+
+ /*content about characters*/
+ .block_character_info { 
    flex-grow:1;
    width: 50%;
    height: 100%;
    padding: 0% 3%;
-}
-.character_info { 
-   border-radius: 15px;
-   flex-grow:1;
-   height: auto;
-   margin: 5% 0 0 5%;
-
 }
 .character_name { 
    border-radius: 15px;
@@ -199,15 +130,60 @@ body {
    line-height: 5em;
    text-align: center;
    }
-.text{
+.character_info { 
+   border-radius: 15px;
+   flex-grow:1;
+   height: auto;
+   margin: 5% 0 0 5%;
+}
+.block_character_img { 
+   flex-grow:1;
+   display: block;
+   width: 35%;
+   height: 100%;
+   flex-direction: column;
+}
+.character_img{
+   object-fit:cover;
+   width: 75%;
+   height: 100%; 
+   margin:auto;
+}
+.character_info p{
    padding: 5% 7%;
-   font-size: 120%;
+   font-size: auto;
 }
 .text_name{
    font-family: "e-UkraineHead-Medium";
    font-size: 200%;
    line-height: 1.25;
 }
+
+/*footer*/ 
+#footer {
+   margin: 0 auto;
+   width: 100%;
+   padding: 15px 25px 15px 25px;
+   height: 40px;
+ }
+ footer {
+   padding: 30px 0;
+   background: #3C3D41;
+   color: white;
+ }
+ .footer-col {
+   width: 50%;
+   float: left;
+ }
+ .footer-col a {
+   color: white;
+   font-size: 18px;
+   padding: 0 7px;
+ }
+ .footer-col:last-child {
+   text-align: right;
+ }
+ 
 @media screen and (max-width: 755px) {
    .header {
       justify-content: center;
