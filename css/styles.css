@@ -116,6 +116,7 @@ html, body {
 }
 #UwU_gradient{
    height: 90px;
+   background: #000000;
    background: -moz-radial-gradient(center, ellipse cover, #000000, #60221b);
    background: -webkit-linear-gradient(top, #000000, #60221b);
    background: -o-linear-gradient(top, #000000, #60221b);
