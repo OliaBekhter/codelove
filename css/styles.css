@@ -14,6 +14,10 @@ body {
    font-family: "e-Ukraine-Regular";
 }
 
+::-webkit-scrollbar {
+   display: none;
+ }
+
 *, *:after, *:before {
     box-sizing: border-box;
     padding: 0;
